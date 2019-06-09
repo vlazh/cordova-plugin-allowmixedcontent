@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-allowmixedcontent",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-allowmixedcontent",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Vladimir Zhukov",
+  "license": "MIT",
+  "scripts": {
+    "patch-publish": "npm version patch && npm publish && git push --follow-tags",
+    "minor-publish": "npm version minor && npm publish && git push --follow-tags",
+    "major-publish": "npm version major && npm publish && git push --follow-tags"
+  }
+}
