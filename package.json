@@ -12,7 +12,7 @@
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "Vladimir Zhukov",
+  "author": "VZH",
   "license": "MIT",
   "scripts": {
     "patch-publish": "npm version patch && git push --follow-tags",
