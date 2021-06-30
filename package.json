@@ -16,7 +16,6 @@
   "license": "MIT",
   "scripts": {
     "patch-publish": "npm version patch && git push --follow-tags",
-    "minor-publish": "npm version minor && git push --follow-tags",
-    "major-publish": "npm version major && git push --follow-tags"
+    "minor-publish": "npm version minor && git push --follow-tags"
   }
 }
